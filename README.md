@@ -56,7 +56,7 @@ A **scheduler** - that takes care of allocating the right worker node for any co
 
 
 
-![Kubernetes has various hierarchies](/Users/farahvi/Dev/kubernetes-exercise/images/kubernetes-hierarchies.png)
+![Kubernetes has various hierarchies](./images/kubernetes-hierarchies.png)
 
 ## Why Kubernetes?
 
