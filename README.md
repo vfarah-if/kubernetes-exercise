@@ -52,7 +52,12 @@ A **scheduler** - that takes care of allocating the right worker node for any co
 
 ### API Server
 
+- [Dashboard UI](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/), API for automating technologies, CLI tool
 
+### Scheduler
+
+- Responsible for scheduling the pods on worker nodes.
+- When choosing a worker node, it has to take care of several factors. We cannot have all pods of the a deployment on the same node.
 
 
 
@@ -144,3 +149,4 @@ minikube delete --all
 
 - [Kubernetes developer guide](https://blog.thewiz.net/understanding-kubernetes-developers-guide)
 - [Kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Build packs](https://paketo.io/)
